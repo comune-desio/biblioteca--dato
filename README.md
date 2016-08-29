@@ -1,13 +1,10 @@
-# MiBoMiDa
+# Biblioteca di Desio
 
-Minimalistic Boilerplate for Middleman and DatoCMS.
+- [Admin](http://admin.biblioteca.desio.org/)
 
-## Usage
+## Uso locale
 
-1. Fork this repository
-2. Create a [DatoCMS Site](https://www.datocms.com)
-3. replace the `REPLACE_ME` values in [config.rb](config.rb) with the DatoCMS API key and the site URL
-
+1. Clona il repository
 
 ```
 bundle install

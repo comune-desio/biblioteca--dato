@@ -3,8 +3,8 @@ configure :development do
 end
 
 activate :dato,
-  token: "REPLACE_ME", # SITE_READ_ONLY_TOKEN
-  base_url: "REPLACE_ME" # http://www.mywebsite.com
+  token: "c16eb24eb2470c8c879ea02fae64af62d6dd857b07b554899e",
+  base_url: "http://dato-biblioteca.desio.org"
 
 configure :build do
   activate :minify_css

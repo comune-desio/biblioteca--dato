@@ -1,0 +1,21 @@
+<div class="links-section__title mdl-typography--display-1-color-contrast"><%= dato.info.links_title %></div>
+
+<div class="links-card-container mdl-grid">
+  <% dato.links.each do |link| %>
+    <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+      <div class="mdl-card__title">
+         <h4 class="mdl-card__title-text"><%= link.title %></h4>
+      </div>
+      <div class="mdl-card__supporting-text">
+        <%= link.description %>
+      </div>
+
+      <div class="mdl-card__actions mdl-card--border">
+         <a class="android-link mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-typography--text-uppercase" href="<%= link.link %>" target="_blank">
+           Accedi
+           <i class="material-icons">launch</i>
+         </a>
+      </div>
+    </div>
+  <% end %>
+</div>
