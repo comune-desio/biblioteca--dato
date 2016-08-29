@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <%= stylesheet_link_tag :style %>
+    <%= yield_content :head %>
+  </head>
+  <body>
+    <%= partial "/partials/header" %>
+    <%= yield %>
+    <%= partial "/partials/footer" %>
+    <%= javascript_include_tag :application %>
+  </body>
+</html>
