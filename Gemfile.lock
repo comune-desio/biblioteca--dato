@@ -153,8 +153,8 @@ PLATFORMS
 
 DEPENDENCIES
   middleman (~> 4.1)
-  middleman-dato
-  middleman-livereload
+  middleman-dato (~> 0.5)
+  middleman-livereload (~> 3.4)
 
 BUNDLED WITH
    1.12.5
