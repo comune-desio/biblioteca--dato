@@ -147,6 +147,7 @@ GEM
       unf_ext
     unf_ext (0.0.7.2)
     video_embed (0.1.0)
+    yajl-ruby (1.2.1)
 
 PLATFORMS
   ruby
@@ -155,6 +156,7 @@ DEPENDENCIES
   middleman (~> 4.1)
   middleman-dato (~> 0.5)
   middleman-livereload (~> 3.4)
+  yajl-ruby (~> 1.2)
 
 BUNDLED WITH
    1.12.5

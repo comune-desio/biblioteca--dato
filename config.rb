@@ -1,3 +1,5 @@
+require "yajl"
+
 configure :development do
   activate :livereload
 end
